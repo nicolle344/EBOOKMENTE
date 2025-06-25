@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBOOKMENTE - Emprendimiento Digital y Ganar Dinero Online</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Inter font */
+        html {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Gradient for buttons */
+        .btn-gradient {
+            background-image: linear-gradient(to right, #4F46E5, #8B5CF6);
+            transition: all 0.3s ease;
+        }
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        /* Style for the ebook cover images */
+        .ebook-cover {
+            width: 100%;
+            max-width: 200px; /* Adjust as needed */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Logo y Nombre de Marca -->
+            <div class="flex items-center space-x-3">
+                <!-- Placeholder para tu logo: Cerebro sobre libro. Se quitó el logo específico. -->
+                <img src="https://placehold.co/50x50/3498db/ffffff?text=🧠📖" alt="EBOOKMENTE Logo" class="rounded-lg shadow-sm">
+                <span class="text-3xl font-extrabold text-indigo-700 tracking-tight">EBOOKMENTE</span>
+            </div>
+            <!-- Botón de Contacto/Acción en el Header (opcional) -->
+            <nav>
+                <a href="#cta" class="bg-indigo-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-indigo-700 transition duration-300 shadow-lg">
+                    ¡Comienza Ya!
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="relative bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-20 px-4 text-center overflow-hidden rounded-b-3xl shadow-xl">
+            <!-- Fondo de formas abstractas para un toque moderno -->
+            <div class="absolute inset-0 z-0 opacity-10">
+                <svg class="w-full h-full" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#ffffff" fill-opacity="0.1" d="M0,192L60,186.7C120,181,240,171,360,170.7C480,171,600,181,720,192C840,203,960,213,1080,208C1200,203,1320,181,1380,170.7L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+                    <path fill="#ffffff" fill-opacity="0.05" d="M0,32L60,48C120,64,240,96,360,101.3C480,107,600,85,720,74.7C840,64,960,64,1080,80C1200,96,1320,128,1380,144L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+                </svg>
+            </div>
+            <div class="relative z-10 max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+                    Transforma Tu Mente, <br class="hidden md:inline"> Multiplica Tus Ingresos.
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">
+                    Descubre los secretos del emprendimiento digital y empieza a ganar dinero online hoy mismo con <span class="font-bold">EBOOKMENTE</span>.
+                </p>
+                <a href="#ebooks-store" class="btn-gradient inline-block text-white px-10 py-4 rounded-full font-bold text-lg shadow-xl hover:scale-105 transition duration-300">
+                    ¡Explorar Ebooks Ahora!
+                </a>
+            </div>
+        </section>
+
+        <!-- Problems Section -->
+        <section id="problems" class="py-16 px-4 bg-gray-100">
+            <div class="container mx-auto max-w-4xl text-center">
+                <h2 class="text-4xl font-bold text-gray-900 mb-10">¿Te sientes identificado?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-indigo-500 transform hover:scale-105 transition duration-300">
+                        <svg class="w-12 h-12 text-indigo-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Cansado de la rutina</h3>
+                        <p class="text-gray-600">Trabajo de 9 a 5 que no te satisface y te roba tiempo.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-purple-500 transform hover:scale-105 transition duration-300">
+                        <svg class="w-12 h-12 text-purple-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">Sueñas con libertad financiera</h3>
+                        <p class="text-gray-600">Deseas generar ingresos desde cualquier lugar del mundo.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-violet-500 transform hover:scale-105 transition duration-300">
+                        <svg class="w-12 h-12 text-violet-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9.247a4.125 4.125 0 115.86-5.86M6 16.035L18.035 4A4.125 4.125 0 0120 7.828l-12.035 12.035c-.324.324-.755.51-1.205.51h-.5c-1.105 0-2-.895-2-2v-.5c0-.45.186-.88.51-1.205z"></path></svg>
+                        <h3 class="text-xl font-semibold mb-3">No sabes por dónde empezar</h3>
+                        <p class="text-gray-600">Te sientes abrumado por la cantidad de información online.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solutions Section -->
+        <section id="solutions" class="py-20 px-4 bg-white">
+            <div class="container mx-auto max-w-5xl text-center">
+                <h2 class="text-4xl font-bold text-gray-900 mb-12">Con EBOOKMENTE, Obtendrás:</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-indigo-100 text-indigo-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.003 12.003 0 002.944 12c.045 4.556 3.84 8.25 8.356 8.356h.001c4.516-.079 8.21-3.773 8.3-8.29l.01-.087V12h-.01a11.955 11.955 0 00-3.232-8.618z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Guías Paso a Paso</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Tutoriales claros y sencillos para crear y escalar tu negocio online desde cero, sin experiencia previa.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-purple-100 text-purple-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7.071 7.071c.391.391.391 1.023 0 1.414l-3.536 3.536m-4.04-4.04l-7.071 7.071c-.391.391-1.023.391-1.414 0l-3.536-3.536c-.391-.391-.391-1.023 0-1.414l7.071-7.071m4.04-4.04L15.5 17.5M9.5 21l3.5-3.5"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Estrategias Comprobadas</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Métodos probados para generar ingresos pasivos y activos, optimizando tu tiempo y esfuerzo.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-violet-100 text-violet-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H2v-2a3 3 0 015.356-1.857M9 20v-2m3-6V7m-4 10h4M12 10v4m0 0v4m0-4h4m-4 0H8m-4 0h4m-4 0v4m0-4h4m-4 0v4m0-4h4"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Comunidad de Apoyo</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Únete a una red de emprendedores con ideas afines, comparte experiencias y crece juntos.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-pink-100 text-pink-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Mentalidad Ganadora</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Desarrolla la mentalidad de crecimiento necesaria para superar desafíos y alcanzar tus metas.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-cyan-100 text-cyan-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18s-3.332.477 4.5 1.253"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Recursos Exclusivos</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Acceso a herramientas, plantillas y recursos seleccionados para potenciar tu negocio digital.
+                        </p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center border border-gray-200">
+                        <div class="bg-green-100 text-green-700 rounded-full p-4 mb-6">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V4m0 0a2 2 0 110 4m0 0H7.5M12 12h4.5M12 12V6.25M12 12c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8V4m0 0a2 2 0 110 4m0 0H7.5M12 12h4.5"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Soporte Continuo</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            No estás solo en este camino. Recibe soporte y resuelve tus dudas para avanzar con confianza.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ebooks Store Section -->
+        <section id="ebooks-store" class="py-20 px-4 bg-gray-50">
+            <div class="container mx-auto max-w-6xl">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Nuestros Ebooks Destacados</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Ebook 1: El Arte del Marketing Digital -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/e0e7ff/4f46e5?text=Marketing+Digital" alt="Portada Ebook Marketing Digital" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">El Arte del Marketing Digital</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Domina las estrategias clave para posicionar tu marca online y atraer a tus clientes ideales.
+                        </p>
+                        <p class="text-3xl font-bold text-indigo-700 mb-6">$29.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_1" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Ebook 2: Finanzas para Emprendedores -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/e9d5ff/8B5CF6?text=Finanzas+Emprendedoras" alt="Portada Ebook Finanzas para Emprendedores" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Finanzas para Emprendedores</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Aprende a gestionar tus ingresos, inversiones y optimizar tus recursos para el éxito financiero.
+                        </p>
+                        <p class="text-3xl font-bold text-purple-700 mb-6">$34.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_2" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Ebook 3: Automatización de Negocios Online -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/ffe4e6/ec4899?text=Automatizacion" alt="Portada Ebook Automatización de Negocios Online" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Automatización de Negocios Online</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Descubre herramientas y técnicas para automatizar procesos y escalar tu negocio sin esfuerzo.
+                        </p>
+                        <p class="text-3xl font-bold text-pink-700 mb-6">$39.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_3" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Ebook 4: Creación de Contenido Viral -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/dbeafe/2563eb?text=Contenido+Viral" alt="Portada Ebook Creación de Contenido Viral" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Creación de Contenido Viral</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Aprende a crear contenido que resuene con tu audiencia y se difunda masivamente online.
+                        </p>
+                        <p class="text-3xl font-bold text-blue-700 mb-6">$24.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_4" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Ebook 5: Secretos del SEO para Emprendedores -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/f0f9ff/06b6d4?text=SEO+Emprendedor" alt="Portada Ebook Secretos del SEO" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Secretos del SEO para Emprendedores</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Optimiza tu presencia online y atrae tráfico orgánico a tus ofertas sin gastar en publicidad.
+                        </p>
+                        <p class="text-3xl font-bold text-cyan-700 mb-6">$32.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_5" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+
+                    <!-- Ebook 6: Libertad Financiera con Afiliados -->
+                    <div class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center text-center border border-gray-100">
+                        <img src="https://placehold.co/200x300/ecfdf5/10b981?text=Afiliados" alt="Portada Ebook Marketing de Afiliados" class="ebook-cover">
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Libertad Financiera con Afiliados</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">
+                            Inicia tu camino hacia ingresos pasivos masivos a través del marketing de afiliados.
+                        </p>
+                        <p class="text-3xl font-bold text-green-700 mb-6">$27.99 USD</p>
+                        <!-- ENLACE DE HOTMART AQUÍ -->
+                        <a href="TU_ENLACE_HOTMART_EBOOK_6" target="_blank" class="btn-gradient w-full block text-center text-white px-8 py-3 rounded-full font-bold text-lg shadow-md hover:scale-105 transition duration-300">
+                            Comprar Ahora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="cta" class="bg-gradient-to-r from-purple-700 to-indigo-600 text-white py-20 px-4 text-center rounded-t-3xl shadow-xl">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                    ¡No Esperes Más! Tu Futuro Digital Comienza Hoy.
+                </h2>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">
+                    Únete a la comunidad de EBOOKMENTE y transforma tu visión en realidad.
+                </p>
+                <a href="#ebooks-store" class="btn-gradient inline-block text-white px-12 py-5 rounded-full font-bold text-xl shadow-2xl hover:scale-105 transition duration-300">
+                    ¡Empieza a Ganar Dinero Ahora!
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-8 px-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 EBOOKMENTE. Todos los derechos reservados.</p>
+            <div class="mt-4 space-x-6">
+                <a href="#" class="hover:text-white transition duration-300">Política de Privacidad</a>
+                <a href="#" class="hover:text-white transition duration-300">Términos y Condiciones</a>
+                <a href="#" class="hover:text-white transition duration-300">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
